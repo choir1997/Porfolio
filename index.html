@@ -3,13 +3,23 @@
   <head>
     <meta charset='UTF-8'/>
     <title>Rikki's Portfolio</title>
+    <link rel='stylesheet' href='index.css'/>
   </head>
 
   <body>
+    <div class='page'>
+
     <h1>Welcome to Rikki's Portfolio</h1>
 
+    <ul class='navi-bar'>
+      <li class='list-orientation'><a class='block-style' href="about.asp">About</a></li>
+      <li class='list-orientation'><a class='block-style' href="projects.asp">Projects</a></li>
+      <li class='list-orientation'><a class='block-style' href="experiences.asp">Experience</a></li>
+      <li class='list-orientation' style="border-right:none"><a class='block-style' href="contact.asp">Contact</a></li>
+    </ul>
+
     <hr/>
-    
+
     <h2>About Me</h2>
     <p>
       <ul>
@@ -46,9 +56,10 @@
 
     <h2>Contact Info</h2>
     <p>
-      <ul>
-        <li><a href='https://github.com/choir1997'>My Github</a></li>
-        <li><a href='https://www.linkedin.com/in/rikki-choi-b3a29aa4/'>
-          My linked in page</a></li>
-      </ul>
+        <a id='button-1' class='button' href='https://github.com/choir1997'>My Github</a>
+        <a id='button-2' class='button' href='https://www.linkedin.com/in/rikki-choi-b3a29aa4/'>
+          My linked-in page</a>
     </p>
+  </div>
+  </body>
+</html>
